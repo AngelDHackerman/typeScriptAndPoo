@@ -41,6 +41,10 @@ Debemos usar el siguiente comando:
 
 Esto hace que se el active el watcher y todos los archivos ".ts" dentro de la carpeta donde estamos sean compilados
 
+# Creando clases 
+
+### se debe colocar como "false" el siguiente paramentro de tsconfig.json
+  `"strictPropertyInitialization": false`;
 
 
 
