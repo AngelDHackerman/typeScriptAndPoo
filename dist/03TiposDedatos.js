@@ -30,3 +30,9 @@ console.log(numeros);
 console.log(cualquierArray);
 console.log(años);
 console.groupEnd();
+// ! Multiples tipos de datos
+let cadenaNumber = "angelDariaux.com"; // ? Tuplas, asi se le pueden agregar los valores opcionales.
+cadenaNumber += 12;
+console.group(`Multiples tipos de datos:`);
+console.log(cadenaNumber);
+console.groupEnd();
