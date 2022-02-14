@@ -3,9 +3,10 @@
 ```
 npm install -g typescript // instalamos typescript
 tsc --version             // verficamos la version de Ts 
-tsc -w *.ts               // watcher automatico para compliar todos los archivos ts
+tsc -watch               // watcher automatico para compliar todos los archivos ts
 
 tsc --init                // Creamos el archivo de configuracion de Ts.
+tsc                       //Despues de haber configurado todo usamos este comando para "guardar" los cambios
 
 ```
 
@@ -18,6 +19,9 @@ tsc --init                // Creamos el archivo de configuracion de Ts.
     `npm install -g typescript`
 
 * `tsc --version`: nos dice la version de typeScript que tenemos instalada
+
+# Debemos crear la carpeta "src" y alli guardar nuestros archivos .ts
+## Esta sera la caperta por defecto donde Ts buscara los archivos .ts para luego compilarlos.
 
 # tsconfig.js Archivo de configuracion de typeScript
 
