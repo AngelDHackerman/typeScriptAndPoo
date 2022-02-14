@@ -21,14 +21,21 @@ tsc --init                // Creamos el archivo de configuracion de Ts.
 
 # tsconfig.js Archivo de configuracion de typeScript
 
-* `tsc --init` // Crear el archivo de configuracion de typescript
+`tsc --init` // Crear el archivo de configuracion de typescript
+  #### En el archivo tsconfig.json: 
+  Debemos descomentar el "outDir": "./",
+
+  y debemos modificarla por **"outDir": "./dist",** (o el directorio que deseemos)
+
+  #### luego debemos ejecutar: 
+  `tsc` para que ejecute los cambios en el tsconfig 
 
 # Compilacion automatica: 
 
 Debemos usar el siguiente comando:
-* `tsc -w *.ts`
+* `tsc -watch `
 
-Esto hace que se el active el watcher y todos los archivos ".ts" (*.ts), se compilen automaticamente.
+Esto hace que se el active el watcher y todos los archivos ".ts" dentro de la carpeta donde estamos sean compilados
 
 
 
