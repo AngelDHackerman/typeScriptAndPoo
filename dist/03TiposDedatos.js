@@ -36,3 +36,9 @@ cadenaNumber += 12;
 console.group(`Multiples tipos de datos:`);
 console.log(cadenaNumber);
 console.groupEnd();
+let cadenaV3 = 12;
+cadenaV3 = 'letras';
+// cadenaV3 = true; //Esto es un error porque no se le paso la opcion de ser boolean.
+console.group(`Datos personalizados:`);
+console.log(cadenaV3);
+console.groupEnd();

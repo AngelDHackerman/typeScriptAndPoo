@@ -66,4 +66,19 @@ console.log(cadenaNumber);
 console.groupEnd();
 
 
+      // ! Datos personalizados
 
+// Asi se crean los tipos de datos personalizados: 
+
+type letrasONumeros = string | number;
+
+let cadenaV3: letrasONumeros = 12;
+cadenaV3 = 'letras';
+
+// cadenaV3 = true; //Esto es un error porque no se le paso la opcion de ser boolean.
+
+console.group(`Datos personalizados:`)
+
+  console.log(cadenaV3)
+
+console.groupEnd();
