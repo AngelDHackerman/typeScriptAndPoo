@@ -4,7 +4,8 @@ export {} // !Esto nos ayuda a eliminar el mensaje de error porque estamos copia
 // * Propiedades (caracteristicas del objeto)
 // * Metodos (funciones o acciones del objeto)
 
-class ClaseCamiseta { // Esta es la CLASE
+// ! el export class, nos permite exportar esta clase a cualquier otro archivo.
+export class ClaseCamiseta { // Esta es la CLASE 
   // Esto de abajo son las PROPIEDADES
   private color: string; 
   private modelo: string; 
