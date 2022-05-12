@@ -26,6 +26,10 @@ tsc                       //Despues de haber configurado todo usamos este comand
 # tsconfig.js Archivo de configuracion de typeScript
 
 `tsc --init` // Crear el archivo de configuracion de typescript
+
+  #### En el archivo tsconfig.json
+  Debemos descomentar el 'rootDir': './' y seleccionar la carpeta que sera donde typeScript tome su codigo para analizarlo.
+  
   #### En el archivo tsconfig.json: 
   Debemos descomentar el "outDir": "./",
 
